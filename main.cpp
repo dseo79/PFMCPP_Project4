@@ -117,7 +117,8 @@ float FloatType::multiply(float lhs, float rhs)
     return lhs * rhs;
 }
 
-float FloatType::divide(float lhs, float rhs) {
+float FloatType::divide(float lhs, float rhs) 
+{
     if (rhs == 0.0f) 
     {
         std::cout << "Warning, floating point division by zero!" << std::endl;
